@@ -43,6 +43,7 @@ const newUsers = async (req, res) => {
     .then(() => res.status(200).json({ success: true, message: "user added" }))
     .catch((error) => res.status(400).json({ success: false, error }));
 };
+
 module.exports = {
   getUsers,
   newUsers,

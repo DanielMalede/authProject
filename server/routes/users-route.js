@@ -1,4 +1,4 @@
-const router = require("express").Router();
+const router =require("express").Router();
 
 const { getUsers,newUsers,register } = require("../controllers/users-ctrl");
 
